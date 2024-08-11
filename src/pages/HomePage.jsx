@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import PageContent from './PageContent';
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <PageContent title="Welcome!">
+      <p>
+        Explore our all new events!
+      </p>
+    </PageContent>
   )
 }
 
